@@ -1,0 +1,127 @@
+@media (max-width: 991px) {
+    .max-width {
+        padding: 0 50px;
+    }
+}
+
+@media (max-width: 947px) {
+    .menu-btn {
+        display: block;
+        z-index: 999;
+    }
+
+    .menu-btn i.active:before {
+        content: "\f00d";
+    }
+
+    .navbarss .menu {
+        position: fixed;
+        height: 100vh;
+        width: 100%;
+        left: -100%;
+        top: 0;
+        background: #111;
+        text-align: center;
+        padding-top: 80px;
+        transition: all 0.3s ease;
+    }
+
+    .navbarss .menu.active {
+        left: 0;
+    }
+
+    .navbarss .menu li {
+        display: block;
+    }
+
+    .navbarss .menu li a {
+        display: inline-block;
+        margin: 20px 0;
+        font-size: 25px;
+    }
+
+    .home .home-content .text-2 {
+        font-size: 70px;
+    }
+
+    .home .home-content .text-3 {
+        font-size: 35px;
+    }
+
+    .home .home-content a {
+        font-size: 23px;
+        padding: 10px 30px;
+    }
+
+    .max-width {
+        max-width: 930px;
+    }
+
+
+
+}
+@media (max-width: 690px) {
+    .max-width {
+        padding: 0 23px;
+    }
+    .about  .right a{
+        margin-top: 400px;
+    }
+    .home .home-content .text-2 {
+        font-size: 60px;
+    }
+
+    .home .home-content .text-3 {
+        font-size: 24px;
+    }
+
+    .home .home-content a {
+        font-size: 20px;
+    }
+
+}
+
+@media (max-width: 500px) {
+    .home .home-content .text-2 {
+        font-size: 45px;
+    }
+    .about  .right a{
+        margin-top: 600px;
+    }
+    svg:hover{
+        cursor: pointer;
+        animation: flip 1s forwards !important;
+    }
+  
+    .team .single-box {
+        padding: 50px 0 40px;
+    }
+
+    .team .single-box .img-area {
+        width: 100%;
+        float: none;
+    }
+
+    .home .home-content .text-3 {
+        font-size: 20px;
+    }
+
+    .team .single-box .content {
+        width: 100%;
+        float: none;
+    }
+
+    .team {
+        padding: 70px 0 130px;
+    }
+}
+@media(max-width:340px){
+   
+    .col-lg-6 .right .text{
+        font-size: 16px !important;
+
+    }
+}
+body{
+    overflow: hidden;
+}

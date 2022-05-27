@@ -1,0 +1,602 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Allura&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="./fontawesome-free-6.1.1-web/css/all.min.css">
+    <script src="./library/JQuery.min.js"></script>
+    <link rel="stylesheet" href="./css/animate.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+    <link rel="stylesheet" href="./css/skills.css">
+    <link rel="stylesheet" href="./css/about.css">
+    <link rel="stylesheet" href="./css/projects.css">
+    <link rel="stylesheet" href="./css/contact.css">
+    <link rel="stylesheet" href="./css/aos.css">
+    <title>SardorDev-Portfolio</title>
+    <link rel="shortcun icon" href="./images/logo.PNG">
+
+</head>
+
+<body>
+
+    <div class="modals">
+        <div style=" animation: fadeIn .5s forwards;  background-color:rgba(0, 0, 0, 0.747);     width:100%; height:100%;display: none;  z-index:111111; position: fixed; "
+            class=" text-center m-auto col-lg-12 modalka">
+            <div style=" display:flex; justify-content: center;align-items: center; " class="trailer">
+                <b style="font-weight: 400; font-size:30px;color:white;">Trailer</b>
+                <i id="modal_close" class="fa-solid fa-xmark"></i>
+                <video style="border-radius: 10px; display: flex; margin-top: 100px;  max-width: 100%; "
+                    src="./IMG_8099.MP4" controls></video>
+            </div>
+        </div>
+    </div>
+
+    <div class="preloader">
+        <div class="loader">
+            <img src="./images/ZbLj (1).gif" alt="Loading">
+
+        </div>
+
+    </div>
+    <div class="wrapper">
+        <div class="wow jackInTheBox" data-wow-delay="4s" id="sound">
+            <audio id="myAudio">
+                <source src="./Music/music.mp3">
+            </audio>
+            <i style="padding-right: 10px;" class="fa fa-music sound-cloud" aria-hidden="true"></i>
+
+            <div class="on-off">
+                <span id="off">OFF</span>
+                <span id="on">On</span>
+            </div>
+
+        </div>
+        <a href="#">
+            <div class="scroll-up-btn">
+                <i class="fas fa-angle-up"></i>
+            </div>
+        </a>
+        <a class="wow bounceIn" data-wow-duration="2s" data-wow-delay="6s" style="font-size: 16px; font-weight: 600; color: white; position: absolute;z-index:100;  bottom:70px;left: 10px;" href="/CommandVoiceAssistant">How to use AI ?</a>
+    </div>
+    <header>
+
+        <nav class="navbarss">
+            <div class="max-width">
+                <div class="logo"><a href="#"><img style="border-radius:50%; border:2px solid gold ;" width="40px" height="40px"  src="./images/logo.PNG" alt=""> Sardor<span>Dev</span></a></div>
+                <ul class="menu">
+                    <li><a href="#" class="menu-btn">Home</a></li>
+                    <li><a href="#about" class="menu-btn">About</a></li>
+                    <li><a href="#Skills1" class="menu-btn">Skills</a></li>
+                    <li><a href="#projects" class="menu-btn">Portfolio</a></li>
+                    <li><a href="#contact" class="menu-btn">Contact</a></li>
+
+                </ul>
+                <div class="menu-btn">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </div>
+        </nav>
+
+
+        <div class="home" id="home">
+            <div class="max-width">
+                <div class="home-content">
+                    <div class="text-1">Hello, my name is</div>
+                    <div style="position: absolute;" class="text-2"><span class="typing"></span></div>
+                    <div style="margin-top: 90px;" class="text-3">I'm <span class="typing-2"></span></div>
+                    <a class="resumeactive" href="./resume/index.html">Resume</a>
+                </div>
+            </div>
+        </div>
+
+    </header>
+    <section class="about" id="about">
+
+        <div class="container">
+            <h2 style="overflow: hidden;" class="wow fadeInDown titles">About me</h2>
+
+            <div class="about-content">
+                <div class="row">
+
+                    <div class="wow fadeInUp col-lg-6 col-md-12 text-center ">
+                        <div class="column left">
+                            <div class="img m-auto">
+                                <img class="image__img" src="./images/MyPhoto.PNG" alt="Error ">
+                                <div class="image__overlay image__overlay--primary">
+                                    <div class="image__title">Sardor Shoakbarov</div>
+                                    <p class="image__description">
+                                        Full-stack Devoluper
+                                    </p>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="wow fadeInUp col-lg-6  col-md-12 " data-wow-duration="2s">
+                        <div class="column right ">
+                            <div class="text">I'm <span class="typing-3"></span></div>
+                            <div class="text_about">
+                                <p   id="aboutmep">Hi my name is Sardor Shaokbarov, I am a junior devoluper with a full
+                                    stack. I was born on May 9, 2007 in
+                                    Boyovut district of Syrdarya region. I am 15 years old. In 2021, I enrolled in a
+                                    frontend programming course at the Boyovut IT Center, and on March 10, 2021, I
+                                    successfully completed a frontend programming course from December 1, 2021, I
+                                    took a backend programming course on youtube Samar Badriddinov channel, and I
+                                    finished a backend programming course on May 5, 2022, and now I want to learn
+                                    React and Angular programming.</p>
+                            </div>
+                            <a style="margin-left: 20px;" href="./resume/index.html">Resume</a>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+        </div>
+    </section>
+    <section id="Skills1">
+        <div class="container">
+            <h1 class="wow fadeInDown" data-wow-duration="2s"
+                style="text-align: center; margin-bottom: 100px; color: white; font-size: 40px;">What I do?</h1>
+            <div class="row m-auto text-center">
+                <div class="col-lg-3  col-md-4 col-sm-6  s  fadeInUpBig" data-wow-duration="3s">
+                    <svg id="my-svg1" class="svgs" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 456.804 456.804"
+                        width="150px" height="150px">
+                        <path
+                            d="M27.405 0l36.542 410.56 163.882 46.244 165.022-46.244L429.398 0H27.405zm322.62 133.904h-192.43l4.283 51.676h183.866l-14.273 155.315-102.499 28.26v.287h-1.143l-103.356-28.547-6.28-79.367h49.965l3.711 39.971 55.959 15.126 56.245-15.126 6.283-65.097H115.625l-13.418-152.46h252.392l-4.574 49.962z"
+                            fill="none" stroke="#f55c03" stroke-width="10"
+                            style="stroke-dasharray: 3349, 3351; stroke-dashoffset: 0;"></path>
+                    </svg>
+                    <h4 style="font-family: Arial, Helvetica, sans-serif;font-size: 20px;color:white;">HTML5</h4>
+                </div>
+                <div class="col-lg-3  col-md-4 col-sm-6  s  fadeInUpBig" data-wow-duration="3s" data-wow-delay="300ms">
+                    <svg id="my-svg2" class="svgs" data-wow-duration="2s" xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 470.699 470.699" width="150px" height="150px">
+                        <path
+                            d="M426.981 0H43.701C34.52 0 27.632 7.769 28.442 16.949L63.45 409.254c.811 9.173 8.745 18.774 17.644 21.253L219.1 468.842c8.887 2.463 23.413 2.479 32.313.032l138.177-38.281c8.901-2.472 16.835-11.986 17.645-21.175l35.023-392.469C443.068 7.769 436.209 0 426.981 0zM360.51 141.611c-.006.06-.053.107-.112.117-.06.01-.118-.021-.144-.077L252.13 185.96c-1.54.631-2.418 2.264-2.098 3.897.322 1.633 1.754 2.811 3.419 2.811h84.103c4.474 0 8.736 1.9 11.728 5.227 2.991 3.327 4.429 7.768 3.954 12.216l-13.141 123.273c-.645 6.048-4.709 11.186-10.447 13.205l-89.269 31.41c-3.362 1.184-7.027 1.193-10.397.025l-88.852-30.778c-5.773-2-9.871-7.153-10.52-13.228l-5.957-55.828c-.313-2.931.634-5.857 2.604-8.048 1.971-2.192 4.779-3.444 7.727-3.444h24.725c5.313 0 9.769 4.007 10.331 9.289l3.655 34.316 61.521 21.385 61.803-21.58 7.559-71.17H129.835c-5.297 0-9.746-3.985-10.327-9.25l-3.327-30.164c-.508-4.601 2.088-8.982 6.366-10.745l111.837-46.109c1.269-.523 1.99-1.868 1.724-3.214-.267-1.345-1.446-2.314-2.817-2.314H115.542c-3.545 0-6.518-2.677-6.888-6.201l-3.406-32.421c-.205-1.951.428-3.898 1.741-5.357 1.313-1.458 3.184-2.291 5.146-2.291h246.379c1.973 0 3.852.842 5.166 2.313 1.314 1.472 1.938 3.434 1.715 5.394l-4.885 43.032z"
+                            fill="none" stroke="#0084ff" stroke-width="10"
+                            style="stroke-dasharray: 3383, 3385; stroke-dashoffset: 0;"></path>
+                    </svg>
+                    <h4 style=" font-family: Arial, Helvetica, sans-serif;font-size: 20px;">CSS3</h4>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-sm-6  s  fadeInUpBig" data-wow-duration="3s" data-wow-delay="900ms">
+                    <svg id="my-svg3" class="svgs" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"
+                        width="150px" height="150px">
+                        <g fill="none" stroke="#ffe600" stroke-width="10">
+                            <path
+                                d="M503.467 0H8.533C3.814 0 0 3.823 0 8.533v494.933C0 508.177 3.814 512 8.533 512h494.933c4.719 0 8.533-3.823 8.533-8.533V8.533C512 3.823 508.186 0 503.467 0zm-8.534 494.933H17.067V17.067h477.867v477.866z"
+                                style="stroke-dasharray: 3945, 3947; stroke-dashoffset: 0;"></path>
+                            <path
+                                d="M392.533 452.267c-32.93 0-59.733-26.795-59.733-59.733 0-4.71-3.814-8.533-8.533-8.533-4.719 0-8.533 3.823-8.533 8.533 0 42.342 34.449 76.8 76.8 76.8s76.8-34.458 76.8-76.8-34.449-76.8-76.8-76.8c-32.93 0-59.733-26.795-59.733-59.733s26.803-59.733 59.733-59.733c32.93 0 59.733 26.795 59.733 59.733 0 4.71 3.814 8.533 8.533 8.533 4.719 0 8.533-3.823 8.533-8.533 0-42.342-34.449-76.8-76.8-76.8s-76.8 34.458-76.8 76.8 34.449 76.8 76.8 76.8c32.93 0 59.733 26.795 59.733 59.733.001 32.938-26.802 59.733-59.733 59.733zM213.333 469.333c42.351 0 76.8-34.458 76.8-76.8v-204.8c0-4.71-3.814-8.533-8.533-8.533-4.719 0-8.533 3.823-8.533 8.533v204.8c0 32.939-26.803 59.733-59.733 59.733-32.93 0-59.733-26.795-59.733-59.733 0-4.71-3.814-8.533-8.533-8.533s-8.533 3.823-8.533 8.533c-.002 42.343 34.447 76.8 76.798 76.8z"
+                                style="stroke-dasharray: 2233, 2235; stroke-dashoffset: 0;"></path>
+                        </g>
+                    </svg>
+                    <h4 style="font-family: Arial, Helvetica, sans-serif;font-size: 20px;color:white;">Javascript
+                    </h4>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6  m-auto s  fadeInUpBig" data-wow-duration="3s"
+                    data-wow-delay="1.2s">
+                    <svg id="my-svg-4" width="150px" height="150px" viewBox="-1.5 0 24 24"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <g fill="none" stroke="green" stroke-width="0.4">
+
+                            <path
+                                d="m10.639 24c-.001 0-.002 0-.003 0-.339 0-.656-.091-.928-.251l.009.005-2.937-1.737c-.438-.246-.224-.332-.08-.383.506-.159.946-.365 1.352-.618l-.024.014c.028-.013.06-.02.094-.02.046 0 .089.014.125.038l-.001-.001 2.256 1.339c.039.021.086.034.136.034s.097-.013.138-.035l-.002.001 8.794-5.077c.081-.05.134-.138.134-.238 0-.001 0-.001 0-.002v-10.147c-.001-.101-.055-.19-.136-.239l-.001-.001-8.791-5.072c-.039-.022-.086-.035-.135-.035s-.096.013-.137.036l.001-.001-8.789 5.073c-.083.049-.138.138-.139.24v10.149c0 .101.055.188.137.234l.001.001 2.41 1.392c1.307.654 2.107-.116 2.107-.889v-10.022c0-.14.114-.254.254-.254h.003 1.115.001c.14 0 .254.113.254.254v10.022c0 1.745-.95 2.746-2.604 2.746-.02 0-.043.001-.066.001-.725 0-1.402-.205-1.976-.56l-2.29-1.318c-.556-.328-.922-.923-.922-1.605v-10.151c.001-.68.368-1.273.914-1.595l.009-.005 8.795-5.082c.267-.149.585-.236.924-.236s.658.088.934.241l-.01-.005 8.794 5.082c.555.327.921.92.923 1.6v10.15c-.001.681-.368 1.276-.915 1.6l-.009.005-8.792 5.078c-.264.155-.582.246-.922.246-.002 0-.005 0-.007 0z" />
+                            <path
+                                d="m13.356 17.009c-3.848 0-4.655-1.766-4.655-3.249v-.001c0-.14.113-.253.253-.253h.002 1.137.001c.127 0 .232.093.252.214v.001c.171 1.158.683 1.742 3.01 1.742 1.853 0 2.64-.419 2.64-1.402 0-.567-.223-.987-3.102-1.269-2.406-.24-3.894-.77-3.894-2.695 0-1.774 1.496-2.833 4-2.833 2.818 0 4.212.978 4.388 3.076.001.007.001.015.001.022 0 .141-.114.254-.254.254h-1.133c-.12 0-.221-.085-.246-.198v-.002c-.274-1.218-.94-1.607-2.746-1.607-2.023 0-2.258.705-2.258 1.232 0 .64.278.826 3.009 1.187 2.702.358 3.986.863 3.986 2.762-.004 1.919-1.601 3.017-4.388 3.017z" />
+                    </svg>
+                    <h4 style="font-family: Arial, Helvetica, sans-serif;font-size: 20px;color:white;">Node.js</h4>
+                </div>
+                <div class="col-lg-12 col-md-6 col-sm-6 m-auto s wow fadeInUpBig" data-wow-duration="3s"
+                    data-wow-delay="1.4s">
+
+                    <img width="150px" height="150px" src="./images/Vue.png" alt="no img">
+
+                    <h4 style="font-family: Arial, Helvetica, sans-serif;font-size: 20px;color:white;">Vue.js</h4>
+                </div>
+
+
+
+
+            </div>
+        </div>
+
+
+    </section>
+    <section id="Skills">
+        <div class="wow container ">
+            <div class="row">
+
+                <article class="col-lg-6 ">
+
+                    <ul>
+                        <li class="html">
+                            <em>HTML5 & CSS</em>
+                            <div>
+                                <span class=" wow animated fadeInLeft"></span>
+                            </div>
+                        </li>
+
+                        <li class="SCSS">
+                            <em>SCSS</em>
+                            <div>
+                                <span class="wow animated fadeInLeft" data-wow-delay="400ms"></span>
+                            </div>
+                        </li>
+                        <li class="JAVASCRIPT">
+                            <em>JAVASCRIPT</em>
+                            <div>
+                                <span class="wow animated fadeInLeft" data-wow-delay="800ms"></span>
+                            </div>
+                        </li>
+                        <li class="jQUERY">
+                            <em>jQUERY</em>
+                            <div>
+                                <span class="wow animated fadeInLeft" data-wow-delay="1.2s"></span>
+                            </div>
+                        </li>
+                        <li class="photoshop">
+                            <em>Adabe Reader Photoshop</em>
+                            <div>
+                                <span class="wow animated fadeInLeft" data-wow-delay="1.6s"></span>
+                            </div>
+                        </li>
+                        <li class="vue">
+                            <em>Vue.js - Coming Soon</em>
+                            <div>
+                                <span class="wow animated fadeInLeft" data-wow-delay="1.2s"></span>
+                            </div>
+                        </li>
+                    </ul>
+
+                </article>
+                <article class="col-lg-6 ">
+
+                    <ul>
+                        <li class="Node">
+                            <em>Node.js</em>
+                            <div>
+                                <span class=" wow animated fadeInLeft"data-wow-delay="200ms"></span>
+                            </div>
+                        </li>
+                        <li class="express">
+                            <em>Express.js</em>
+                            <div>
+                                <span class="wow animated fadeInLeft" data-wow-delay="600ms"></span>
+                            </div>
+                        </li>
+                        <li class="MDB">
+                            <em>MangoDB</em>
+                            <div>
+                                <span class="wow animated fadeInLeft" data-wow-delay="1s"></span>
+                            </div>
+                        </li>
+
+                        <li class="react">
+                            <em>React.js</em>
+                            <div>
+                                <span class="wow animated fadeInLeft" data-wow-delay="1.4s"></span>
+                            </div>
+                        </li>
+
+                        <li class="git">
+                            <em>Github & Git</em>
+                            <div>
+                                <span class="wow animated fadeInLeft" data-wow-delay="1.8s"></span>
+                            </div>
+                        </li>
+
+                        <li class="angular">
+                            <em>Angular - Coming Soon</em>
+                            <div>
+                                <span class="wow animated fadeInLeft" data-wow-delay="1.4s"></span>
+                            </div>
+                        </li>
+                    </ul>
+
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section class="projects" id="projects">
+        <div class="container mb-5">
+            <div class="row ">
+                <div class="col-lg-12 ">
+                    <h1 class="wow backInDown" style="color: white;font-size: 40px;">My Projects</h1>
+
+                </div>
+
+                <ul class="nav justify-content-center">
+                    <li class="nav-item">
+                        <a class="nav-link " data-sort="random" data-filter="all">All</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-sort="random" data-filter=".new">New Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-sort="random" data-filter=".front">Front-end Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " data-sort="random" data-filter=".full">Full-Stack Projects</a>
+                    </li>
+                </ul>
+
+            </div>
+
+            <div class="row cards">
+                <div class="wow zoomIn mt-5 mb-5 col-lg-4 card_mix mix full col-md-6 col-sm-12" data-wow-delay="200ms">
+                    <div class="wrap">
+
+                        <img width="100%" height="100%" src="./images/project1.jpg" alt="error img" />
+                        <button>
+                            <a href="https://boyovut-it-center.herokuapp.com">View</a>
+                        </button>
+                    </div>
+                </div>
+                <div class=" wow zoomIn mt-5 mb-5 col-lg-4 card_mix mix full col-md-6 col-sm-12" data-wow-delay="400ms">
+                    <div class="wrap">
+
+                        <img width="100%" height="100%" src="./images/project2.jpg" alt="error img" />
+                        <button>
+                            <a href="http://boyavut.uz/">View</a>
+                        </button>
+                    </div>
+                </div>
+                <div class=" wow zoomIn mt-5 mb-5 col-lg-4 card_mix mix new full col-md-6 col-sm-12"
+                    data-wow-delay="600ms">
+                    <div class="wrap">
+
+                        <img width="100%" height="100%" src="./images/project3.jpg" alt="error img" />
+                        <button>
+                            <a href="https://zamazon.herokuapp.com/">View</a>
+                        </button>
+                    </div>
+                </div>
+                <div class=" wow zoomIn mt-5 mb-5 col-lg-4 card_mix mix new front col-md-6 col-sm-12"
+                    data-wow-delay="800ms">
+                    <div class="wrap">
+                        <img width="100%" height="100%" src="./images/project4.jpg" alt="error img" />
+                        <button>
+                            <a href="https://academy-template.netlify.app">View</a>
+                        </button>
+                    </div>
+                </div>
+                <div class="wow zoomIn  mt-5 mb-5 col-lg-4 card_mix mix  front col-md-6 col-sm-12" data-wow-delay="1s">
+                    <div class="wrap">
+                        <img width="100%" height="100%" src="./images/project5.jpg" alt="error img" />
+                        <button>
+                            <a href="https://index-project.netlify.app/">View</a>
+                        </button>
+                    </div>
+                </div>
+                <div class=" wow zoomIn mt-5 mb-5 col-lg-4 card_mix mix new full col-md-6 col-sm-12"
+                    data-wow-delay="1.2s">
+                    <div class="wrap">
+                        <img width="100%" height="100%" src="https://cdn.hipwallpaper.com/i/56/89/ZO3LRp.jpg"
+                            alt="error img" />
+                        <button>
+                            <a href="https://jarvis-assistant.netlify.app">View</a>
+                        </button>
+                    </div>
+                </div>
+                <div class=" wow zoomIn mt-5 mb-5 col-lg-4 card_mix mix front col-md-6 col-sm-12" data-wow-delay="1.4s">
+                    <div class="wrap">
+                        <img width="100%" height="100%" src="./images/project7.jpg" alt="error img" />
+                        <button>
+                            <a href="https://we-will-travel.netlify.app">View</a>
+                        </button>
+                    </div>
+                </div>
+                <div class=" wow zoomIn mt-5 mb-5 col-lg-4 card_mix mix front col-md-6 col-sm-12" data-wow-delay="1.6s">
+                    <div class="wrap">
+                        <img width="100%" height="100%" src="./images/project8.jpg" alt="error img" />
+                        <button>
+                            <a href="https://burgers-website.netlify.app">View</a>
+                        </button>
+                    </div>
+                </div>
+                <div class=" wow zoomIn mt-5 mb-5 col-lg-4 card_mix mix new full col-md-6 col-sm-12 m-auto"
+                    data-wow-delay="1.8s">
+                    <div class="wrap">
+                        <img width="100%" height="100%"
+                            src="https://th.bing.com/th/id/OIP.SFA__CjfBxOFsmjhFHAWpQHaEK?pid=ImgDet&rs=1"
+                            alt="error img" />
+                        <button>
+                            <a class="coming">View</a>
+                        </button>
+                    </div>
+                </div>
+
+
+            </div>
+
+            <button data-wow-delay="2s" class="wow bounceIn btn_github"><i style="font-size: 20px;"
+                    class="fa-brands fa-github"></i><a style="color: gold;" href="https://github.com/SardorDev1"> All
+                    project in Github</a></button>
+
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-title">
+                <h2 class="wow fadeInDown" style="color:white ;font-size: 40px;">Contact</h2>
+                <p data-wow-delay="0.2s" class="wow fadeInDown" style="font-size: 20px;color: white;">Contact Me</p>
+            </div>
+            <div class="row mt-2">
+                <div data-wow-delay="1.0s" class=" wow fadeIn col-md-6 d-flex align-items-stretch">
+                    <div class=" info-box">
+                        <i style="font-size: 25px;" class="fa fa-map-marker"></i>
+                        <h3>My Address</h3>
+                        <p> Bayaut Sirdarya Uzbekistan</p>
+                    </div>
+                </div>
+                <div data-wow-delay="1.2s" class=" wow fadeIn col-md-6 mt-4 mt-md-0 d-flex align-items-stretch">
+                    <div class="info-box">
+                        <i style="font-size: 25px;" class="fa fa-share-alt"></i>
+                        <h3>Social Profiles</h3>
+                        <div class="social-links">
+                            <a href=""><i class="fa-brands fa-telegram"></i></a>
+                            <a href=""><i class="fa-brands fa-instagram"></i></a>
+                            <a href=""><i class="fa-brands fa-github"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div data-wow-delay="1.4s" class=" wow fadeIn col-md-6 mt-4 d-flex align-items-stretch">
+                    <div class="info-box">
+                        <i style="font-size: 25px;" class="fa fa-envelope"></i>
+                        <h3>Email Me</h3>
+                        <p>sardordev1@mail.ru</p>
+                    </div>
+                </div>
+                <div data-wow-delay="1.6s" class="  wow fadeIn col-md-6 mt-4 d-flex align-items-stretch">
+                    <div class="info-box">
+                        <i style="font-size: 25px;" class="fa fa-phone   "></i>
+                        <h3>Call Me</h3>
+                        <p>+998 33 644 77 56</p>
+                    </div>
+                </div>
+            </div>
+            <form method="POST" data-wow-duration="1s" data-wow-delay="2s" class="wow fadeIn form mt-4">
+                <div class="form-row">
+                    <div data-wow-duration="1.2s" data-wow-delay="2.5s" class="wow fadeInUp col-md-6 form-group">
+                        <input type="text" name="name" class="form-control" id="name" placeholder="Your Name"
+                            required />
+                        <div class="validate"></div>
+                    </div>
+                    <div data-wow-duration="1.2s" data-wow-delay="3s" class="wow fadeInUp col-md-6 form-group">
+                        <input type="email" class="form-control" name="email" id="email" placeholder="Your Email"
+                            required />
+                        <div class="validate"></div>
+                    </div>
+                </div>
+
+                <div data-wow-duration="1.2s" data-wow-delay="3.5s" class="wow fadeInUp form-group">
+                    <input type="number" class="form-control" name="phone" id="phone" placeholder="+998" required />
+                    <div class="validate"></div>
+                </div>
+                <div data-wow-duration="1.2s" data-wow-delay="4.0s" class="wow fadeInUp form-group">
+                    <textarea class="form-control" name="message" rows="5" id="message" placeholder="Message"
+                        required></textarea>
+                    <div class="validate"></div>
+                </div>
+
+                <div class="text-center">
+                    <button id="submit" data-wow-duration="2s" data-wow-delay="4.5s" class="wow bounceIn"
+                        type="submit">Send Message</button>
+                </div>
+            </form>
+        </div>
+
+    </section>
+
+
+
+<footer> 
+        <div class="container pt-5 ">
+            <div class="row ">
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                    <a title="Email Me" href="mailto:sardordev1@mail.ru"> <i data-wow-delay="200ms" data-wow-duration="2s"
+                            class="wow s fa-solid fa-envelope"></i></a>
+                    <h1 data-wow-duration=".4s" data-wow-delay="2s" class="wow bounceIn text-center">sardordev1@mail.ru
+                    </h1>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                    <a title="Phone Me" href="tel:+998336445578"><i data-wow-duration="2s" data-wow-delay="400ms"
+                            class="wow s fa-solid fa-phone"> </i></a>
+                    <h1 data-wow-duration=".4s" data-wow-delay="2.4s" class="wow  bounceIn text-center">+998336445578
+                    </h1>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    
+                        <a title="Github Me" href="https://github.com/SardorDev1"> <i data-wow-duration="2s" data-wow-delay="600ms"
+                                class="wow bounceIn fa-brands fa-github"> </i></a>
+                      
+
+                  
+
+
+
+
+                    
+
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                  
+                        <a title="Instagram Me" href="https://instagram.com/sardor_shoakbarov1"> <i data-wow-delay="800ms"
+                                class="wow bounceIn fa-brands fa-instagram"> </i></a>
+                       
+
+
+
+
+                </div>
+                <div class="col-lg-4  col-md-6 col-sm-12 m-auto">
+                 
+                        <a title="Telegram Me" href="https://t.me/alimqulov_01 "> <i data-wow-duration="1s" data-wow-delay="1s"
+                                class=" wow bounceIn fa-brands fa-telegram"> </i></a>
+                    
+
+                    
+
+
+                </div>
+            </div>
+            <div title="Author" class="author">
+                <p data-wow-duration="5s" class="wow fadeInUp">Created by<a href=""> SardorDev</a></p>
+
+            </div>
+        </div>
+    </footer> 
+    <!--Jarvis controls-->
+    <li><a id="homenav" href="#"></a></li>
+    <li><a id="aboutnav" href="#about"></a></li>
+    <li><a id="skillsnav" href="#Skills1"></a></li>
+    <li><a id="portfolionav" href="#projects"></a></li>
+    <li><a id="contactnav" href="#contact"></a></li>
+    <!-- Voice Assistant-Jarvis -->
+    <div class="alan-btn"></div>
+    <script src="./js/library/mixitup.min.js"></script>
+
+    <a id="google" href="https://www.google.com/"></a>
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js"
+        integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2"
+        crossorigin="anonymous"></script>
+    <script src="./js/library/vivus.min.js"></script>
+    <script src="./js/library/wow.min.js"></script>
+    <script src="./js/library/aos.js"></script>
+    <script>
+        new WOW().init()
+        AOS.init();
+    </script>
+    <script src="./js/voice_assistant/app.js"></script>
+    <script src="./js/voice_assistant/voice.js"></script>
+    <script src="./js/library/type.js"></script>
+    <script src="https://smtpjs.com/v3/smtp.js">
+    </script>
+</body>
+<script src="./js/script.js"></script>
+
+</html>

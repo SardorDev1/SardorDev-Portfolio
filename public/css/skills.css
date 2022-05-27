@@ -1,0 +1,167 @@
+
+#Skills {
+  
+    font: 14px/1.6 "Open Sans", Helvetica, Arial, sans-serif;
+    color: #697279;
+}
+
+#Skills .wrap {
+    max-width: 960px;
+    margin: 0 auto;
+    position: relative;
+    padding: 0 20px;
+}
+
+#Skills .section-title h1 {
+    margin: 0;
+    line-height: 50px;
+    letter-spacing: 5px;
+    font-weight: 600;
+    font-family: 'Ubuntu', sans-serif !important;
+    color: white;
+}
+
+#Skills .border {
+    display: block;
+    height: 10px;
+    margin-bottom: 40px;
+    width: 100px;
+    background: #ED5565;
+}
+#Skills  h1{
+    font-family: 'Ubuntu', sans-serif !important;
+}
+
+
+#Skills .row ul {
+    margin: 0 20px 0 0 !important;
+    text-align: left !important;
+    padding: 0;
+}
+
+#Skills .row ul li {
+    list-style: none !important;
+}
+
+#Skills .row ul li em {
+    display: block;
+    margin-bottom: 15px;
+    color: white;
+    font-size: 16px;
+}
+
+#Skills .row ul li div {
+    margin-bottom: 35px;
+    border-radius: 3px 3px 3px 3px;
+    -webkit-border-radius: 3px 3px 3px 3px;
+    background: #000911;
+    height: 42px;
+
+    overflow: hidden;
+}
+
+#Skills .row ul li div span {
+    height: 42px;
+    width: 50%;
+    display: block;
+    
+    border-radius: 3px 3px 3px 3px;
+    -webkit-border-radius: 3px 3px 3px 3px;
+}
+
+#Skills .row ul li.html div span {
+    background: #f55c03;
+    width: 90%;
+}
+.using  h4{
+margin-bottom: 50px !important;
+margin-top: 10px !important;
+}
+.using svg:hover{
+    animation: 1s shakeY forwards !important;
+}
+.using  .img:hover{
+    display: inline;
+    animation: 1s shakeY forwards !important;
+}
+#Skills .row ul li.css div span {
+    background: #4762f8;
+    width: 80%;
+}
+
+#Skills .row ul li.SCSS div span {
+    background: #a279aa;
+    width: 75%;
+}
+
+#Skills .row ul li.JAVASCRIPT div span {
+    background: #f3ef00;
+    width: 79%;
+}
+#Skills .row ul li.Node div span{
+    width: 57%;
+background-color: rgb(1, 153, 1);
+
+}
+#Skills .row ul li.express div span{
+    width: 60%;
+background-color: rgb(0, 110, 0)
+
+}
+#Skills .row ul li.MDB div span{
+    width: 64%;
+background-color: #4ab900;
+
+}
+#Skills .row ul li.react div span{
+    width: 40%;
+background-color: rgb(0, 162, 255);
+
+}
+#Skills .row ul li.git div span{
+    width: 80%;
+background-color: rgb(58, 10, 112);
+
+}
+#Skills .row ul li.jQUERY div span {
+    width: 85%;
+    background: #00b8ab;
+}
+#Skills .row ul li.photoshop div span{
+    width: 50%;
+background-color: rgb(9, 41, 78);
+
+}
+.col-lg-3 h4{
+    margin-bottom: 60px;
+}
+
+#Skills1 img:hover{
+    cursor: pointer;
+    animation: float 1s infinite  ;
+}
+#Skills1 h4{
+    color: white;
+    font-family: 'Ubuntu', sans-serif !important;
+}
+section{
+overflow: hidden;
+}
+svg{
+    margin-bottom: 5px;
+    
+  
+}
+#Skills1 h1{
+    font-family: 'Ubuntu', sans-serif !important;
+    text-shadow: 2px 4px 7px #000 !important;
+}
+svg:hover{
+    cursor: pointer;
+    animation: float 1s infinite !important;
+}
+svg:hover h4{
+    text-shadow: 2px 2px 5px ;
+}
+
+
